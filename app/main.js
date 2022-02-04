@@ -58,10 +58,7 @@ var express = require("express")
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const fileUpload = require('express-fileupload');
-const multipart = require('connect-multiparty');
 var server = express()
-var db = require("./backend/database/database");
-const bcrypt = require('bcrypt');
 
 // Importamos las rutas
 var routes = require('./backend/url');
